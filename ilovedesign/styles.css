@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "SegoeUIRegular";
+    src:
+    url("./fonts/SegoeUIRegular.woff") format("woff"),
+    url("./fonts/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "SegoeUIBold";
+    src:
+    url("./fonts/SegoeUIBold.woff") format("woff"),
+    url("./fonts/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+html{
+    height: 2000px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.iLoveDesign {
+    height: 950px;
+    background-color: #23232e;
+}
+.WID {
+    height: 1050px;
+}
+.logo   {
+    margin:50px 0 0 600px;
+}
+.ILD{
+    font-size:100px;
+    color: #FFFFFF;
+    font-family:"SegoeUIBold";
+    text-transform: uppercase;
+    text-align: center;
+}
+.p2 {
+    font-family: "SegoeUIRegular";
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 2;
+}
+.circle{
+    margin:200px 0 0 650px;
+}
+.description{
+    font-family: "SegoeUIRegular";
+    text-align: center;
+    color: #464b4f;
+    font-size: 26px;
+    margin: 60px 0 0 0;
+    padding:0 300px;
+}
+.whatIdo{
+    font-size:100px;
+    color: #464b4f;
+    font-family:"SegoeUIBold";
+    text-transform: uppercase;
+    text-align: center;
+}
+#template{
+    margin-left: 15%;
+}
+
+.inline{
+    display: inline-block;
+    width: 24%;
+    margin-right: 10px;
+    vertical-align: top;
+}
+p{
+    color: #888a8b;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family:"SegoeUIRegular";
+
+}
+.p3 {
+    color: #464b4f;
+    font-size: 26px;
+    font-family:"SegoeUIBold";
+}
