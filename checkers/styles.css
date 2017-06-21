@@ -10,7 +10,7 @@ body{
     position: relative;
     height: 850px;
     width: 850px;
-    background-color: #f0e36b;
+    background: url("tree.jpg");
     margin: 0 auto;
     -webkit-box-shadow: 19px -13px 27px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 19px -13px 27px -1px rgba(0,0,0,0.75);

@@ -1,0 +1,30 @@
+.menu {
+    background: #cccccc;
+}
+.menu__item{
+    background: #999;
+    border: 1px solid #333;
+}
+.menu__item--opened{
+    background: #efefef;
+}
+.menu__link{
+    text-decoration: none;
+    color: darkblue;
+}
+.menu__link--opened{
+    text-decoration: underline;
+}
+.menu__sub-menu{
+    border: 1px solid #333;
+    display: none;
+}
+.menu__sub-menu--opened{
+ display: block;
+}
+.menu__sub-menu-item{
+    background: #777;
+}
+.menu__sub-menu-link{
+    color: darkred;
+}
