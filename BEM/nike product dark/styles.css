@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400');
+
 .body {
     background-color: #cdcdd0;
     padding: 0;
@@ -20,44 +22,171 @@
 }
 
 .card {
-    font-size:0;
+    font-size: 0;
     position: relative;
     width: 700px;
     height: 400px;
     background-color: #152335;
     border-radius: 15px;
     z-index: 4;
-
     box-sizing: border-box;
 }
 
 .left-part {
+    position: relative;
+    box-sizing: border-box;
     display: inline-block;
-    padding: 25px;
-    width: 400px ;
+    width: 400px;
     height: 400px;
 }
 
 .left-part__logo {
-    display: block;
+    position: absolute;
+    top: 25px;
+    left: 25px;
     margin-bottom: 80px;
 }
 
 .left-part__grand-image {
-    display: block;
+    position: absolute;
     margin-bottom: 35px;
+    left: 25px;
+    top: 125px;
 }
 
 .left-part__buttons {
-    display: block;
-    margin-left: 150px;
+    position: absolute;
+    left: 170px;
+    top: 320px;
+
+}
+
+.left-part__buttons_button1 {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #293550;
+    margin-right: 10px;
+    border: solid 2px #cccccc;
+}
+
+.left-part__buttons_button2 {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 10px;
+
+}
+
+.left-part__buttons_button3 {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #F34B42;
+    margin-right: 10px;
+
+}
+
+.left-part__buttons_button4 {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #24E7EE;
+    margin-right: 10px;
+
 }
 
 .right-part {
+    position: relative;
     display: inline-block;
-    width: 300px;
     height: 400px;
+    width: 300px;
+    box-sizing: border-box;
 }
-.nike{
 
+.right-part__nike {
+    position: absolute;
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 100;
+    top: 70px;
+    left: 50px;
+}
+
+.right-part__unisex {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.right-part__stars {
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+
+.right-part__star {
+    display: inline-block;
+}
+
+.right-part__star-g {
+    display: inline-block;
+}
+
+.right-part__size-qty {
+    position: absolute;
+    top: 220px;
+    left: 50px;
+}
+
+.right-part__size-qty_size {
+    display: inline-block;
+    color: #8f9da8;
+    border: solid 1px #626873;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    padding: 5px;
+margin-right: 5px;
+}
+
+.right-part__size-qty_qty {
+    display: inline-block;
+    color: #8f9da8;
+    border: solid 1px #626873;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 100;
+    padding: 5px;
+}
+.right-part__size-qty_size-span:after{
+    content: url("images/Rectangle 2.png");
+    margin-left: 5px;
+}
+.right-part__size-qty_qty-span:after{
+    content: url("images/Rectangle 2.png");
+    margin-left: 5px;
+}
+.right-part__add-to-cart{
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    font-size: 20px;
+    font-family:'Roboto';
+    font-weight: 100;
+    color: #8f9da8;
+    padding: 10px 35px;
+    border: solid 1px #626873;
+    background-color: #2a3545;
 }
