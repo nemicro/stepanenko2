@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    background: linear-gradient(to bottom left, #dd2476, #ff512f);
+}
+body{
+}
+div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    height: 470px;
+    width: 460px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.create{
+    margin: 0;
+    font-size: 25px;
+    font-family:'Arial';
+    font-weight:bold;
+}
+.create:before{
+    content: url("images/sign up icon.png");
+    margin-right: 5px;
+}
+.come{
+    font-family:'Arial Regular';
+    font-size: 13px;
+    color: #7a7b7f;
+    line-height: 1.8;
+}
+a {
+    text-decoration: none;
+    font-family:'Arial Regular';
+    font-size: 13px;
+    color: #ED355A;
+}
+[class$=name]{
+    width: 193px;
+}
+[class$=line]{
+    width: 400px;
+}
+.first-name{
+    margin-right: 10px;
+}
+
+.line{
+    height: 40px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+}
+.submit{
+    height: 40px;
+    border: none;
+    background-color: #ea355a;
+    border-radius: 5px;
+    font-family:'Arial';
+    font-size: 18px;
+    font-weight:bold;
+    color: #FFFFFF;
+    width: 400px;
+}
+.by-clicking{
+    font-family:'Arial Regular';
+    font-size: 13px;
+    color: #7a7b7f;
+    line-height: 1.8;
+}
+input::-webkit-input-placeholder {
+text-indent: 15px;
+}
