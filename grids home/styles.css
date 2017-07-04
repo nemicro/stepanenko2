@@ -16,15 +16,16 @@ body {
 .row > div {
     display: inline-block;
     font-size: 30px;
-    font-family: 'Arial';
+    font-family: 'Arial', 'sans-serif';
     font-weight: bold;
     text-align: center;
     color: #FFFFFF;
 }
 
 h1 {
+    margin-left: 10px;
     font-weight: bold;
-    font-family: 'Arial';
+    font-family: 'Arial', 'sans-serif';
     font-size: 30px;
 }
 
@@ -41,7 +42,7 @@ h1 {
 }
 
 .col-6 {
-    width: 45%;
+    width: 50%;
 }
 
 .h145 {
@@ -56,27 +57,27 @@ h1 {
 
 .h155 {
     height: 155px;
-    line-height:155px;
+    line-height: 155px;
 }
 
 .h165 {
     height: 165px;
-    line-height:165px;
+    line-height: 165px;
 }
 
 .h185 {
     height: 185px;
-    line-height:185px;
+    line-height: 185px;
 }
 
 .h200 {
     height: 200px;
-    line-height:200px;
+    line-height: 200px;
 }
 
 .h320 {
     height: 320px;
-    line-height:320px;
+    line-height: 320px;
 }
 
 .green {
@@ -106,6 +107,11 @@ h1 {
 .purple {
     background-color: #6652ad;
 }
-[class*="h"]{
-    margin: 10px;
+
+.border {
+    height: 100%;
+    width: 100%;
+    border: solid white 10px;
+    box-sizing: border-box;
 }
+
