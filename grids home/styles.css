@@ -6,7 +6,7 @@ body {
 .body {
     margin: 0 auto;
     width: 1200px;
-    height: 800px;
+    height: 850px;
 }
 
 .row {
@@ -20,8 +20,6 @@ body {
     font-weight: bold;
     text-align: center;
     color: #FFFFFF;
-    margin-right: 5px;
-    margin-bottom: 5px;
 }
 
 h1 {
@@ -43,7 +41,7 @@ h1 {
 }
 
 .col-6 {
-    width: 50%;
+    width: 45%;
 }
 
 .h145 {
@@ -108,6 +106,6 @@ h1 {
 .purple {
     background-color: #6652ad;
 }
-#b{
-    color: #5F6565;
+[class*="h"]{
+    margin: 10px;
 }
