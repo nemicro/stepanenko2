@@ -1,0 +1,12 @@
+body{
+    background-color: #e2e7ec;
+    display: flex;
+}
+div{
+    display: inline-flex;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
