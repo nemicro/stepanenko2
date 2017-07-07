@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@font-face {font-family:"Miso";src:url("fonts/miso.eot?") format("eot"),url("fonts/miso.woff") format("woff"),url("fonts/miso.ttf") format("truetype")
+;font-weight:normal;font-style:normal;
+}
+@font-face {
+    font-family: 'misobold';
+    src: url('fonts/miso-bold-webfont.woff2') format('woff2'),
+    url('fonts/miso-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color: #fdde7e;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+img {
+    width: 35%;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+}
+.card{
+    display: inline-flex;
+    height: 75%;
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.big{
+    height: 84%;
+}
+.price{
+    font-family: 'misobold','sans-serif';
+    font-size: 500%;
+    color: #02995B;
+}
+.name{
+    font-family: 'Miso','sans-serif';
+    font-size: 350%;
+}
+.description{
+    font-family:'Lato','sans-serif';
+    font-size: 150%;
+    margin-bottom: 20px;
+}
