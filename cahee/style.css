@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+@font-face {
+    src: url(fonts/RalewayLight/RalewayLight.woff);
+    font-family: RalewayLight;
+}
+
+@font-face {
+    src: url(fonts/RalewayRegular/RalewayRegular.woff);
+    font-family: RalewayRegular;
+}
+
+@font-face {
+    src: url(fonts/RalewayBold/RalewayBold.woff);
+    font-family: RalewayBold;
+}
+
+@font-face {
+    src: url(fonts/RalewayBlack/RalewayBlack.woff);
+    font-family: RalewayBlack;
+}
+
+body {
+    margin: 0;
+    font-size: 0;
+    color: #262626;
+}
+
+.row > div {
+    display: inline-block;
+}
+
+.col-1 {
+    width: 8.333%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.333%;
+}
+
+.col-5 {
+    width: 41.67%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+header {
+    position: relative;
+    background: url("images/header bacground.jpg") 50% no-repeat;
+    background-size: cover;
+    min-height:100vh;
+}
+
+.header {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 2vw 0;
+
+
+}
+
+.cahee {
+    font-size: 3rem;
+    font-family: 'Pacifico', 'Arial', "sans-serif";
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+li {
+    font-family: 'RalewayBold', 'Arial', 'sans-serif';
+    font-size: 1rem;
+    display: inline-block;
+    list-style-type: none;
+    border-top: solid 3px transparent;
+}
+
+li:hover {
+    border-top: solid 3px #ff6033;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-family: 'RalewayBlack', 'Arial', 'sans-serif';
+    margin: 0;
+}
+
+h2 {
+    font-size: 5.625rem;
+    font-family: 'RalewayBold', 'Arial', 'sans-serif';
+    color: #FFFFFF;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'RalewayLight', 'Arial', 'sans-serif';
+    line-height: 1.6;
+}
+
+button {
+    font-size: 1.25rem;
+    font-family: 'RalewayLight', 'Arial', 'sans-serif';
+    color: #fff;
+    width: 200px;
+    height: 55px;
+    border: none;
+    -webkit-box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.75);
+}
+
+.orange {
+    background-color: #ff6033;
+}
+
+.fresh-life {
+    margin-top: 24%;
+}
+
+.scroll {
+position: absolute;
+    left: 50%;
+    margin-left:-12px;
+    bottom: 50px;
+    height: 39px;
+    width: 24px;
+    background: url("images/scroll.svg") no-repeat;
+}
+.scroll:hover{
+opacity: 0.4;
+}
+
+#about-us{
+    background-color: #00bcbc;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.services{
+    padding: 100px 1% 150px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: url("images/tomato.png") no-repeat right;
+}
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    height: 100px;
+    width: 300px;
+    color: #262626;
+    text-align: center;
+    font-family: 'RalewayBold','Arial','sans-serif';
+    box-sizing: border-box;
+}
+
+#services {
+    background-color: #70bfff;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.service-list{
+    margin-top: 150px;
+}
+.our {
+}
+
+
+.service{
+    display: inline-flex;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.icon-box{
+    border-left: solid 1px #000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    height: 100px;
+    width: 100px;
+    background: #FFFFFF;
+}
