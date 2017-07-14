@@ -26,6 +26,7 @@ body {
     color: #262626;
 }
 
+
 .row > div {
     display: inline-block;
 }
@@ -33,7 +34,9 @@ body {
 .col-1 {
     width: 8.333%;
 }
-
+.col-2{
+    width: 16.666%;
+}
 .col-3 {
     width: 25%;
 }
@@ -49,7 +52,9 @@ body {
 .col-6 {
     width: 50%;
 }
-
+.col-8{
+    width: 66.666%;
+}
 header {
     position: relative;
     background: url("images/header bacground.jpg") 50% no-repeat;
@@ -62,8 +67,6 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     padding:0 2vw 0;
-
-
 }
 
 .cahee {
@@ -72,7 +75,7 @@ header {
     font-weight: 400;
 }
 
-ul {
+.menu{
     display: flex;
     justify-content: space-between;
 }
@@ -82,7 +85,7 @@ a {
     color: #262626;
 }
 
-li {
+.menu > li {
     font-family: 'RalewayBold', 'Arial', 'sans-serif';
     font-size: 1rem;
     display: inline-block;
@@ -90,7 +93,7 @@ li {
     border-top: solid 3px transparent;
 }
 
-li:hover {
+.menu > li:hover {
     border-top: solid 3px #ff6033;
 }
 
@@ -105,6 +108,9 @@ h2 {
     font-family: 'RalewayBold', 'Arial', 'sans-serif';
     color: #FFFFFF;
     margin: 0;
+}
+.black{
+    color: #262626;
 }
 
 p {
@@ -124,7 +130,9 @@ button {
     -moz-box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.75);
     box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.75);
 }
-
+button:hover{
+    opacity: 0.8;
+}
 .orange {
     background-color: #ff6033;
 }
@@ -161,50 +169,163 @@ opacity: 0.4;
 }
 
 .services{
-    padding: 100px 1% 150px;
+    position: relative;
+    padding:180px 0 150px;
     max-width: 1200px;
     margin: 0 auto;
     background: url("images/tomato.png") no-repeat right;
 }
 
-.service{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.25rem;
-    height: 100px;
-    width: 300px;
-    color: #262626;
-    text-align: center;
-    font-family: 'RalewayBold','Arial','sans-serif';
-    box-sizing: border-box;
-}
-
 #services {
     background-color: #70bfff;
-    display: flex;
     color: #FFFFFF;
 }
-
 .service-list{
-    margin-top: 150px;
+    margin-left: 9%;
 }
-.our {
-}
-
-
 .service{
-    display: inline-flex;
-    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
     margin-bottom: 20px;
+    width: 400px;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.4);
 }
-.icon-box{
-    border-left: solid 1px #000;
+.text{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    vertical-align: top;
+    width: 300px;
     height: 100px;
-    width: 100px;
     background: #FFFFFF;
+    border-right: solid 1px #262626;
+    font-size: 1.25rem;
+    font-family: 'RalewayBold','Arial','sans-serif';
+    color: #262626;
+    text-align: center;
+}
+.icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+}
+.our{
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+}
+#gallery{
+    background-color: #ffe92f;
+}
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:80px 0 120px;
+}
+.text-in-gallery{
+    text-align: center;
+    max-width: 600px;
+}
+
+.gallery img{
+}
+.view-more {
+    background-color: #5585A2;
+}
+#subscribe{
+    background: url("images/subscribe.jpg") no-repeat ;
+
+}
+.subscribe{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 130px 0 150px;
+}
+.sub{
+    font-size: 40px;
+}
+[type="email"]{
+    width: 100%;
+    height: 50px;
+}
+.subscribe-button{
+    background-color: #96b92c;
+    margin-left: 10px;
+}
+#blog{
+    background-color: #b07cf7;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    padding:100px 1vw 120px 1vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    text-align: center;
+}
+.images-in-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.text-in-blog{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.button-in-blog{
+    align-self: center;
+    background-color: #f72b3b;
+}
+footer  {
+    background: url("images/footer background.jpg") 50% no-repeat;
+}
+.contact{
+    padding:100px 2vw 120px ;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-in-footer{
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-in-contact input{
+    display: block;
+    width: 100%;
+    background-color: #7fe1e1;
+    opacity: 0.6;
+    border: none;
+    margin-bottom: 15px;
+    height: 50px;
+}
+[title="message"]
+{
+  min-height: 250px;
+}
+.Auskteez{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-left: 5px solid #355B82;
+    background-color: #00C4C4;
+    height: 50px;
+    opacity: 0.6;
+    font-size:15px;
+    font-family: 'RalewayBold','Arial','sans-serif';
+color: #FFFFFF;
+}
+.contacts{
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
 }
