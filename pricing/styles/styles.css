@@ -1,0 +1,237 @@
+@font-face {
+    font-family: BebasLignt;
+    src: url(../fonts/BebasNeueLight.otf);
+}
+
+@font-face {
+    font-family: BebasThin;
+    src: url(../fonts/BebasNeueThin.otf);
+}
+
+@font-face {
+    font-family: BebasRegular;
+    src: url(../fonts/BebasNeueRegular.otf);
+}
+
+@font-face {
+    font-family: BebasBold;
+    src: url(../fonts/BebasNeueBold.otf);
+}
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #9789f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1066px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    position: relative;
+    width: 327px;
+    height: 611px;
+    background: #FFFFFF;
+}
+
+.big {
+    width: 370px;
+    height: 691px;
+}
+
+.item-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 222px;
+    overflow: hidden;
+}
+
+.big .item-top {
+    height: 246px;
+}
+
+.item-bottom {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.big .item-bottom {
+    height: 92px;
+}
+
+.big .item-top:after {
+    height: 150px;
+}
+
+.item-top, .item-bottom {
+    background: #f5f4f9;
+}
+
+.item-top:after {
+    content: '';
+    position: absolute;
+    bottom: -66px;
+    left: -5%;
+    width: 110%;
+    display: block;
+    height: 132px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+
+}
+
+.pop-round {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    background: #fd8d7b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 46px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.pop-round-inner {
+    position: relative;
+}
+
+.pop-round-inner:before,
+.pop-round-inner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    background: #fd8d7b;
+}
+
+.pop-round-inner:before {
+    width: 13px;
+    height: 13px;
+    top: -10px;
+    right: -10px;
+}
+
+.pop-round-inner:after {
+    width: 4px;
+    height: 4px;
+    top: -15px;
+    right: -15px;
+}
+
+.pop-round-hint {
+    display: none;
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 22px;
+    border-radius: 15px;
+    background: #3b4040;
+    color: #FFFFFF;
+    z-index: 1;
+    left: 51px;
+    top: 8px;
+}
+.pop-round-hint-inner {
+    position: relative;
+}
+
+.pop-round-hint-inner:before {
+    content:'';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-right-color: #3b4040;
+    left: -33px;
+    top: 8px;
+}
+.pop-round:hover .pop-round-hint{
+    display: block;
+}
+
+.place-an-order {
+    position: absolute;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #6fcffb;
+    width: 200px;
+    height: 55px;
+    border-radius: 55px;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -100px;
+    border: none;
+    font-family: 'BebasBold', 'Arial','sans-serif';
+    letter-spacing: 0.08em;
+}
+.big .place-an-order{
+    background-color: #fd8d7b;
+    top: -25px;
+
+}
+.price{
+
+}
+
+.dollar{
+    font-size: 24px;
+    font-family:'BebasThin','Arial','sans-serif';
+}
+.number{
+    font-size: 90px;
+    font-family: 'BebasThin','Arial','sans-serif';
+}
+.hr{
+    font-size: 16px;
+    font-family:'BebasLignt','Arial','sans-serif';
+}
+.type-of-work{
+    letter-spacing: 0.04em;
+    font-size: 24px;
+    font-family:'BebasRegular','Arial','sans-serif';
+}
+.web-des{
+    letter-spacing: 0.08em;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    font-family:'Roboto','Arial','sans-serif';
+    font-weight:300;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.bottom-text{
+    font-size: 11px;
+    font-family:'Roboto','Arial','sans-serif';
+    font-weight:300;
+    color: #a9a9a9;
+    margin-top: 45px;
+}
