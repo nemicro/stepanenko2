@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @font-face {
     font-family: BebasLignt;
     src: url(../fonts/BebasNeueLight.otf);
@@ -17,6 +18,7 @@
     font-family: BebasBold;
     src: url(../fonts/BebasNeueBold.otf);
 }
+
 body, html {
     height: 100%;
 }
@@ -192,18 +194,29 @@ main {
 
 }
 .price{
-
+    position: relative;
+    height: 65px;
+    width: 96px;
+    margin: 30px 0 20px;
 }
 
 .dollar{
+    position: absolute;
+    top: 0;
     font-size: 24px;
     font-family:'BebasThin','Arial','sans-serif';
 }
 .number{
+    position: absolute;
+    top: -20px;
+    left: 10px;
     font-size: 90px;
     font-family: 'BebasThin','Arial','sans-serif';
 }
 .hr{
+    position: absolute;
+    bottom: 0;
+    right: 0;
     font-size: 16px;
     font-family:'BebasLignt','Arial','sans-serif';
 }
