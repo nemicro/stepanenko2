@@ -26,7 +26,9 @@ body {
     color: #262626;
 }
 
-
+.row{
+    font-size: 0;
+}
 .row > div {
     display: inline-block;
 }
@@ -66,7 +68,7 @@ header {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    padding:0 2vw 0;
+    padding:30px 2vw 0;
 }
 
 .cahee {
@@ -184,13 +186,16 @@ opacity: 0.4;
     margin-left: 9%;
 }
 .service{
+    padding: 0;
+    border: none;
+    height: 100px;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     width: 400px;
-    -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.4);
-    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 0 11px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 11px 1px rgba(0,0,0,0.4);
+    box-shadow: 0 0 11px 1px rgba(0,0,0,0.4);
 }
 .text{
     display: inline-flex;
@@ -234,8 +239,6 @@ opacity: 0.4;
     max-width: 600px;
 }
 
-.gallery img{
-}
 .view-more {
     background-color: #5585A2;
 }
@@ -286,7 +289,7 @@ opacity: 0.4;
     background-color: #f72b3b;
 }
 footer  {
-    background: url("images/footer background.jpg") 50% no-repeat;
+    background-color:#888a8b ;
 }
 .contact{
     padding:100px 2vw 120px ;
@@ -294,9 +297,11 @@ footer  {
     margin: 0 auto;
 }
 
+.contact .row > div {
+    vertical-align: top;
+}
 .text-in-footer{
-    max-width: 450px;
-    margin: 0 auto;
+    margin: 30px 0;
     text-align: center;
 }
 .form-in-contact input{
@@ -308,9 +313,12 @@ footer  {
     margin-bottom: 15px;
     height: 50px;
 }
-[title="message"]
-{
+[title="message"] {
   min-height: 250px;
+}
+
+.h2-in-footer{
+    text-align: center;
 }
 .Auskteez{
     display: flex;
@@ -324,8 +332,36 @@ footer  {
     font-family: 'RalewayBold','Arial','sans-serif';
 color: #FFFFFF;
 }
-.contacts{
+
+.contact-type{
+    font-family: 'RalewayBold','Arial','sans-serif';
     font-size: 20px;
+}
+.value{
+    font-family: 'RalewayLight', 'Arial', 'sans-serif';
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.bottom-line{
+    background-color: #262626;
+}
+.bottom-line-container{
+    padding:0 15px;
+    height: 90px;
+    font-family: 'RalewayLight', 'Arial', 'sans-serif';
+    font-size: 16px;
+    color: #b9b9b9;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cahee-white {
+    font-family: 'Pacifico', 'Arial', "sans-serif";
+    font-weight: 400;
+    color: #b9b9b9;
+    font-size: 25px;
+}
+.love{
+    color: #f12b55;
 }
