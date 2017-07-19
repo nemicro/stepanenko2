@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway:400,500|Roboto:900');
+$line-color: #ffcc00;
+$main-color: #666;
+$line:  solid 1px $line-color;
+@mixin robotoBlack {
+  text-align: center;
+  font-size: 60px;
+  font-family:'Roboto','Arial','sans-serif';
+  font-weight: 900;
+}
+@mixin button{
+  width: 120px;
+  height: 24px;
+  border: solid 1px $line-color;
+  background-color: #fff;
+  color: #464b4f;
+  font-size: 14px;
+  font-family:'Open+Sans','Arial','sans-serif';
+  font-weight: 700;
+  &:hover{
+    background-color: darken(#fff,50%);
+  }
+}
+.row{
+  font-size: 0;
+}
+.row > div{
+  display: inline-block;
+}
+h1{
+  color: #ffcc00;
+  margin: 0 0 45px;
+@include robotoBlack;
+}
+h2{
+  text-align: center;
+  font-size: 18px;
+  color: #898f8f;
+  font-family:'Raleway','Arial','sans-serif';
+  font-weight:500;
+}
+h3{
+  margin: 0;
+  @include robotoBlack;
+}
+.wrapper{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.main{
+  padding: 120px 100px 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  & div{
+    display: inline-block;
+  }
+  & .text{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 420px;
+    & .line{
+      height: 2px;
+      width: 100px;
+
+    }
+  }
+
+}
+.lines{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 450px;
+  margin: 0 auto;
+  color: $line-color;
+  & .line{
+    display: inline-block;
+    height: 1px;
+    background-color: $line-color;
+    width: 210px;
+  }
+}
+.photo{
+  position: relative;
+  border: $line;
+& div{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: -1;
+}
+}
+.top{
+  top: -15px;
+  border-top: $line;
+}
+.bottom{
+  bottom: -15px;
+  border-bottom:$line;
+}
+.left{
+  left: -15px;
+  border-left: $line;
+}
+.right{
+  right: -15px;
+  border-right: $line;
+}
+.vertical{
+  position: absolute;
+  left: 50%;
+}
+.line{
+  height: 560px;
+  width: 1px;
+  background-color: $line-color;
+  margin:30px 0;
+}
+
+.vocation{
+  font-family:'Raleway','Arial','sans-serif';
+  font-weight:400;
+  font-size: 24px;
+  margin-bottom:30px;
+}
+.icons{
+  margin-bottom: 30px;
+}
+.circle{
+display: inline-block;
+  padding: 5px;
+  box-sizing: border-box;
+  border: solid 2px #ccc;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.fa{
+  color: #cccccc;
+}
+
+.description{
+  font-size: 14px;
+  font-family:'Raleway','Arial','sans-serif';
+  font-weight: 500;
+}
+.dashed{
+  margin: 25px 0;
+  & div{
+    display: inline-block;
+    height: 4px;
+    width: 10px;
+    background-color: $line-color;
+    margin: 2px;
+  }
+  & .center{
+    width: 20px;
+  }
+}
+button{
+@include button;
+}
+
+.dots{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12px;
+  width: 50px;
+  bottom: 94px;
+  left: 50%;
+  margin-left: -20px;
+}
+.dot{
+  height: 10px;
+  width: 10px;
+  background-color: $line-color;
+  border-radius: 50%;
+}
+.empty-dot{
+  border: solid 1px $line-color;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+[class*="angle"]{
+  position: absolute;
+  top: 320px;
+  color: $line-color;
+  font-size:200px;
+  height: 25px;
+  width: 12px;
+}
+[class*="angle-right"] {
+  right: 10px;
+  background: url("../images/angle right icon.png") no-repeat;
+}
+[class*="angle-left"] {
+  left: 10px;
+  background: url("../images/angle left icon.png") no-repeat;
+}
+.col-4 {
+  width: 33.333%;
+}
+
