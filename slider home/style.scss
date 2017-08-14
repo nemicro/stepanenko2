@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
+body{
+  margin: 0;
+}
+.wrapper{
+  width: 1230px;
+  height: 450px;
+  margin: 0 auto;
+}
+.sliderContainer {
+  position: relative;
+  padding: 50px;
+}
+
+.slider{
+  margin: 0 auto;
+  max-width: 1000px;
+  & img{
+  }
+}
+.slider-item{
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+.first{
+  background: url("images/1.jpg");
+}
+.second{
+  background: url("images/2.jpg");
+}
+.third{
+  background: url("images/3.jpg");
+}
+.fourth{
+  background: url("images/4.jpg");
+}
+
+P{
+  font-family:'Poppins','sans-serif';
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+span{
+  position: relative;
+  display: block;
+  font-family:'Poppins','sans-serif';
+  font-size: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+}
+.decor{
+  position: absolute;
+}
+.plus{
+  top:20px;
+  right: 300px;
+}
+.triangle{
+  left: 50px;
+  top: 220px;
+}
+.prev-button{
+  top: 50%;
+  margin-top: -50px;
+  left: 0;
+  position: absolute;
+  height: 96px;
+  width: 96px;
+  background: url("images/arrow-left.png");
+}
+.next-button{
+  top: 50%;
+  margin-top: -50px;
+  right: 0;
+  position: absolute;
+  height:96px;
+  width: 96px;
+  background: url("images/arrow-right.png");
+}
