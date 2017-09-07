@@ -40,6 +40,8 @@ body {
       justify-content: flex-end;
       padding-top: 40px;
       text-align: center; }
+      .header .content-in-header .menu a {
+        text-decoration: none; }
       .header .content-in-header .menu [class^="menu-button"] {
         display: inline-flex;
         justify-content: center;
@@ -81,6 +83,8 @@ body {
       width: 36px;
       border-radius: 50%;
       background-color: #19bd9a; }
+      .header .content-in-header .scroll-button-in-header:hover {
+        cursor: pointer; }
       .header .content-in-header .scroll-button-in-header .v {
         height: 7px;
         width: 7px;
@@ -93,6 +97,30 @@ body {
 
 .content-in-portfolio {
   padding: 90px 30px 100px; }
+  .content-in-portfolio .iso-nav-in-portfolio {
+    text-align: center;
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: space-between; }
+    .content-in-portfolio .iso-nav-in-portfolio div {
+      display: inline-block;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 15px;
+      margin-bottom: 60px;
+      font-family: 'Open Sans', 'sans-serif';
+      font-weight: 400;
+      font-size: 16px;
+      color: #464646; }
+    .content-in-portfolio .iso-nav-in-portfolio:hover {
+      cursor: pointer; }
+    .content-in-portfolio .iso-nav-in-portfolio .active {
+      border-bottom: 2px solid #19bd9a;
+      cursor: pointer; }
+  .content-in-portfolio .item {
+    padding: 0 5px 5px; }
+  .content-in-portfolio .iso-main-in-portfolio {
+    padding: 0 25px 0; }
 
 .button {
   display: inline-block;
@@ -176,19 +204,19 @@ body {
       margin-right: -40px; }
       .slider-item-container .team-slider-text .team-member h3 {
         margin: 0;
-        font-family: 'Open Sans','sans-serif';
+        font-family: 'Open Sans', 'sans-serif';
         font-size: 20px;
         color: #464646;
         letter-spacing: 0.04em; }
       .slider-item-container .team-slider-text .team-member p {
         margin: 0;
-        font-family: 'Source Sans Pro','sans-serif';
+        font-family: 'Source Sans Pro', 'sans-serif';
         font-weight: 300;
         font-size: 14px;
         color: #81868e;
         letter-spacing: 0.1em; }
     .slider-item-container .team-slider-text p {
-      font-family: 'Open Sans','sans-serif';
+      font-family: 'Open Sans', 'sans-serif';
       font-size: 14px;
       line-height: 25px;
       color: #81868e;
@@ -249,11 +277,75 @@ body {
 
 .content-in-testimonials {
   padding: 80px 0 100px; }
-  .content-in-testimonials .testimonials-slider-item .testimonials-slider-item-container {
-    padding: 50px 100px 60px;
-    background: #fff;
-    display: flex; }
-    .content-in-testimonials .testimonials-slider-item .testimonials-slider-item-container .testimonials-slider-text {
-      width: 70%; }
+  .content-in-testimonials .testimonials-slider-item {
+    width: 100%;
+    padding: 50px 100px 110px;
+    background: #fff; }
+    .content-in-testimonials .testimonials-slider-item img {
+      display: inline-block; }
+    .content-in-testimonials .testimonials-slider-item .testimonials-slider-text {
+      width: 80%;
+      display: inline-block;
+      margin-left: 5%; }
+      .content-in-testimonials .testimonials-slider-item .testimonials-slider-text p {
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        color: #81868e; }
+      .content-in-testimonials .testimonials-slider-item .testimonials-slider-text .testimonials-member h3 {
+        margin: 0;
+        font-family: 'Open Sans', 'sans-serif';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.04em;
+        color: #19bd9a; }
+      .content-in-testimonials .testimonials-slider-item .testimonials-slider-text .testimonials-member .testimonials-member-position {
+        margin: 0;
+        font-family: 'Open Sans', 'sans-serif';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.04em;
+        color: #464646; }
+  .content-in-testimonials .team-slider-dots {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -25px;
+    padding-top: 50px; }
+
+footer {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  footer a {
+    margin: 3px; }
+    footer a:hover {
+      cursor: pointer;
+      opacity: .5; }
+  footer img {
+    margin-bottom: 20px; }
+  footer p {
+    margin-bottom: 40px;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 14px;
+    font-weight: 400;
+    color: #81868e;
+    letter-spacing: 0.05em; }
+
+#googleMap {
+  height: 500px; }
+
+audio {
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

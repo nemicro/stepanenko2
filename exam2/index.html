@@ -13,66 +13,54 @@
             <img src="images/svg/Bouncy.svg" alt="bouncy logo">
             <div class="menu">
                 <div class="menu-button1">Hello</div>
-                <div class="menu-button2">Portfolio</div>
-                <div class="menu-button3">Team</div>
-                <div class="menu-button4">Contact</div>
+                <a href="#portfolio"><div class="menu-button2">Portfolio</div></a>
+                <a href="#team"><div class="menu-button3">Team</div></a>
+                <a href="#contact-us"><div class="menu-button4">Contact</div></a>
             </div>
             <div class="text-in-header">
                 <h1>WE ARE CODE CAFE</h1>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
             </div>
             <div class="scroll-button-in-header">
-                <div class="v"></div>
+                <a href="#portfolio"><div class="v"></div></a>
             </div>
         </div>
     </div>
 </header>
 <main>
 
+
     <div class="portfolio">
-        <div class="content-in-portfolio">
+        <div id="portfolio" class="content-in-portfolio">
             <div class="article">
                 <h2>THE PORTFOLIO</h2>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
             </div>
-            <div id="sorts" class="button-group">
-                <button class="button" data-sort-by="All works">All works</button>
-                <button class="button" data-sort-by="Print">Print</button>
-                <button class="button" data-sort-by="Branding">Branding</button>
-                <button class="button" data-sort-by="Web">Web</button>
-                <button class="button" data-sort-by="HTML">HTML</button>
+            <div class="iso-nav-in-portfolio">
+                <div class="active" data-filter="*">All Works</div>
+                <div data-filter=".print">Print</div>
+                <div data-filter=".branding">Branding</div>
+                <div data-filter=".web">Web</div>
+                <div data-filter=".html">HTML</div>
             </div>
-
-            <div class="grid">
-                <div class="element-item it1 " data-Print="12" data-AllWorks="1"><img src="images/works/bag.png" alt="">
-                </div>
-                <div class="element-item it2 " data-Print="11" data-AllWorks="2"><img src="images/works/book.png"
-                                                                                      alt=""></div>
-                <div class="element-item it3 " data-Print="10" data-AllWorks="3"><img src="images/works/books.png"
-                                                                                      alt=""></div>
-                <div class="element-item it4 " data-Print="9" data-AllWorks="4"><img src="images/works/bottles.png"
-                                                                                     alt=""></div>
-                <div class="element-item it5 " data-Print="8" data-AllWorks="5"><img src="images/works/chair.png"
-                                                                                     alt=""></div>
-                <div class="element-item it6 " data-Print="7" data-AllWorks="6"><img src="images/works/garbeo.png"
-                                                                                     alt=""></div>
-                <div class="element-item it7 " data-Print="6" data-AllWorks="7"><img src="images/works/ipa.png" alt="">
-                </div>
-                <div class="element-item it8 " data-Print="5" data-AllWorks="8"><img src="images/works/light.png"
-                                                                                     alt=""></div>
-                <div class="element-item it9 " data-Print="4" data-AllWorks="9"><img src="images/works/photo.png"
-                                                                                     alt=""></div>
-                <div class="element-item it10 " data-Print="3" data-AllWorks="10"><img src="images/works/table.png"
-                                                                                       alt=""></div>
-                <div class="element-item it11 " data-Print="2" data-AllWorks="11"><img src="images/works/tour.png"
-                                                                                       alt=""></div>
-                <div class="element-item it12 " data-Print="1" data-AllWorks="12"><img src="images/works/write.png"
-                                                                                       alt=""></div>
+            <div class="iso-main-in-portfolio">
+                <div class="item branding"><img src="images/works/1.png" alt="1"></div>
+                <div class="item print"><img src="images/works/2.png" alt="2"></div>
+                <div class="item print"><img src="images/works/3.png" alt="3"></div>
+                <div class="item html"><img src="images/works/4.png" alt="4"></div>
+                <div class="item html"><img src="images/works/5.png" alt="5"></div>
+                <div class="item html"><img src="images/works/6.png" alt="6"></div>
+                <div class="item html"><img src="images/works/7.png" alt="7"></div>
+                <div class="item branding"><img src="images/works/8.png" alt="8"></div>
+                <div class="item html"><img src="images/works/9.png" alt="9"></div>
+                <div class="item print"><img src="images/works/10.png" alt="10"></div>
+                <div class="item html"><img src="images/works/11.png" alt=11""></div>
+                <div class="item web"><img src="images/works/12.png" alt="12"></div>
             </div>
         </div>
     </div>
     <div class="team">
-        <div class="content-in-team">
+        <div id="team" class="content-in-team">
             <div class="article">
                 <h2>
                     THE TEAM
@@ -160,7 +148,7 @@
     <div class="contact-anchor">
         <div class="content-in-anchor">
             <p>Already Loved Us? Let’s talk!</p>
-            <button class="contact-anchor-button">Contact Us</button>
+            <a href="#contact-us"><button class="contact-anchor-button">Contact Us</button></a>
         </div>
     </div>
     <div class="testimonials">
@@ -173,41 +161,19 @@
             </div>
             <div class="testimonials-slider">
                 <div class="testimonials-slider-item">
-                    <div class="testimonials-slider-item-container">
                         <img src="images/man-photo.png" alt="PARTHO">
                         <div class="testimonials-slider-text">
-                            <p class="skills">At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis
-                                praesentium. At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis
-                                praesentium. At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis
-                                praesentium. At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis
-                                praesentium. At vero eos et accusamus et iusto odio dignissimos
-                                ducimus qui blanditiis
-                                praesentium. </p>
+                            <p class="skills">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia. </p>
                             <div class="testimonials-member">
                                 <h3>PARTHO</h3>
                                 <p class="testimonials-member-position">FOUNDER, ARTWAYS BD</p>
                             </div>
                         </div>
-                    </div>
                 </div>
                 <div class="testimonials-slider-item">
                     <img src="images/testimonials-2.jpg" alt="dich">
                     <div class="testimonials-slider-text">
-                        <p class="skills">At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. </p>
+                        <p class="skills">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia. </p>
                         <div class="testimonials-member">
                             <h3>DICH</h3>
                             <p class="testimonials-member-position">DICH</p>
@@ -217,17 +183,7 @@
                 <div class="testimonials-slider-item">
                     <img src="images/testimonials-3.jpg" alt="telegram">
                     <div class="testimonials-slider-text">
-                        <p class="skills">At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. At vero eos et accusamus et iusto odio dignissimos
-                            ducimus qui blanditiis
-                            praesentium. </p>
+                        <p class="skills">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia. </p>
                         <div class="testimonials-member">
                             <h3>TELEGRAM</h3>
                             <p class="testimonials-member-position">MESSENGER</p>
@@ -238,7 +194,7 @@
         </div>
     </div>
     <div class="contact-us">
-        <div class="content-in-contact-us">
+        <div id="contact-us" class="content-in-contact-us">
             <div class="article">
                 <h2>CONTACT US</h2>
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
@@ -246,13 +202,26 @@
             </div>
         </div>
     </div>
+    <div id="googleMap">
+
+    </div>
 </main>
 <footer>
-
+    <img src="images/svg/bouncy-dark.svg" alt="">
+    <p>Copyright 2015. All rights Reserved</p>
+    <div class="social">
+        <a target="_blank"  href="https://www.facebook.com/"><img src="images/social/facebook.svg" alt="facebook"></a>
+        <a target="_blank"  href="https://twitter.com/"><img src="images/social/twitter.svg" alt="twitter"></a>
+        <a target="_blank"  href="https://www.linkedin.com/"><img src="images/social/linkedin.svg" alt="linkedin"></a>
+        <a target="_blank"  href="https://www.instagram.com/"><img src="images/social/instagramm.svg" alt="instagram"></a>
+        <a target="_blank"  href="https://vimeo.com/"><img src="images/social/vimeo.svg" alt="vimeo"></a>
+    </div>
 </footer>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js" ></script>
+<script src="isotope.js"></script>
 <script src="slick.min.js"></script>
 <script src="//npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA41UDC9zdbGuKSsF-p1bLoMK_tw8ZHoeo"></script>
 <script src="main.js"></script>
 </body>
 </html>
